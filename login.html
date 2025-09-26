@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Login — Movie Explorer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="brand">🎬 Movie Explorer</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="signup.html">Signup</a>
+    </nav>
+  </header>
+
+  <main class="form-container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <label>Username</label>
+      <input type="text" id="loginUser" required />
+
+      <label>Password</label>
+      <input type="password" id="loginPass" required />
+
+      <button type="submit">Login</button>
+    </form>
+    <p>Don’t have an account? <a href="signup.html">Sign up</a></p>
+  </main>
+
+  <footer class="footer">© 2025 Hasini Emmadi — Movie Explorer</footer>
+  <script src="auth.js"></script>
+</body>
+</html>
